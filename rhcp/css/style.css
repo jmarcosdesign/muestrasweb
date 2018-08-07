@@ -1,0 +1,527 @@
+body {
+	margin: 0 auto;
+	background-color: #f0d337;
+
+
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 60px;
+	font-style: italic;
+	color: #4da9ba;
+	text-align: center;
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: #4da9ba;
+	text-align: center;
+}
+
+
+p {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: #e02142;
+	text-align: center;
+	text-decoration: none;
+	
+}
+
+p.txtDiscos {
+	font-size: 14px;
+	line-height: 16px;
+	text-align: left;
+	text-decoration: none;
+}
+
+p.txtDiscos ul li {
+	list-style: none;
+	text-decoration: none;
+}
+
+
+ul li {
+	text-decoration: none;
+	list-style: none;
+}
+
+
+
+
+#botoneraNav {
+	width: 100%;
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+}
+
+
+
+#logo {
+	float: left;
+	display: inline-block;
+	
+}
+ 
+
+
+#logo:hover {
+	float: left;
+	display: inline-block;
+}
+ 
+
+
+.botonera {
+	width: 70%;
+	height: 60px;	
+	margin: 0 auto;
+	padding: 0px;
+	text-align: right;
+} 
+
+ul.botonera li  {
+	display: inline-block; 
+	
+}
+
+ul.botonera li a.botoneraPrincipal {
+	font-family: 'Monoton', cursive;
+	font-size: 25px;
+	text-decoration: none;
+	display: inline-block;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	color: #e02142; 	
+}
+
+
+ul.botonera li a.botoneraPrincipal:hover {
+	color: #4da9ba;
+}
+
+
+
+
+/* BOTONERA SUB MENU */
+.botSubMenu {
+	position: relative;
+	display: inline-block;
+	text-align: left;
+
+}
+
+
+
+#subMenu {
+	display: none;
+	position: absolute;
+	z-index: 100;
+	background-color: #f0d337;
+	padding-right: 30px;
+	padding-left: 20px;
+}
+
+
+.botSubMenu:hover #subMenu {
+	display: block;
+}
+
+
+#subMenu .botoneraSecundariaSubMenu {
+	font-family: 'Monoton', cursive;
+	font-size: 25px;
+	text-decoration: none;
+	display: inline-block;
+	color: #e02142;
+	border-bottom: 2px dotted #e02142;
+	
+
+}
+
+#subMenu .botoneraSecundariaSubMenu:hover {
+	color: #4da9ba;
+}
+
+
+/* FIN BOTONERA SUB MENU */
+
+
+section#info #imgPortada img {
+	width: 100%;
+}
+
+
+section#info #imgPortada {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+	display: block;
+	text-align: center;
+	position: relative;
+}
+
+section#info #imgPortada #txtRhcp {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+
+	font-size: 200px;
+	color: #f0d337;
+	text-align: left;
+	font-style: italic;
+
+	position: absolute;
+	bottom: 2%;
+	left: 10%;
+	z-index: 1000;
+}
+
+
+#info {
+	width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+
+
+#historiaBanda {
+	width: 80%;
+	margin: 0 auto;
+	display: block;
+	padding-top: 30px;
+}
+
+
+
+section#integrantes {
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 5%;
+}
+
+
+section#integrantes .musico {
+	width: calc(25% - 15px);
+	padding: 0 10px 10px 0;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+}
+
+
+
+
+
+
+.fotoMusicoUno {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 200px;
+	background-image: url(img/anthony.jpg);
+	background-position: center center;
+	border: 12px solid #e02142;
+
+	transition: border 1s;
+}
+
+.fotoMusicoUno:hover {
+	border: 12px solid #4da9ba;
+}
+
+
+.fotoMusicoDos {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 200px;
+	background-image: url(img/flea.jpg);
+	background-position: center top;
+	border: 12px solid #e02142;
+
+	transition: border 1s;
+}
+
+.fotoMusicoDos:hover {
+	border: 12px solid #4da9ba;
+}
+
+.fotoMusicoTres {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 200px;
+	background-image: url(img/chad.jpg);
+	background-position: center top;
+	border: 12px solid #e02142;
+
+	transition: border 1s;
+}
+
+.fotoMusicoTres:hover {
+	border: 12px solid #4da9ba;
+}
+
+.fotoMusicoCuatro {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 200px;
+	background-image: url(img/josh.jpg);
+	background-position: center top;
+	border: 12px solid #e02142;
+
+	transition: border 1s;
+}
+
+.fotoMusicoCuatro:hover {
+	border: 12px solid #4da9ba;
+}
+
+
+
+/*  ASI ESTABA:
+
+#contenedorFotos {
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+#subContenedorFotos img {
+	width: 25%;
+	display: block;
+	float: left;
+
+	
+}
+
+
+*/
+
+
+#contenedorFotos {
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+
+}
+
+
+#subContenedorFotos {
+	width: 25%;
+	float: left;
+	
+}
+
+
+#subContenedorFotos img {
+	width: 100%;
+}
+
+
+
+
+video {
+	max-width: 100%;
+	position: relative;
+}
+
+
+#videoMedia {
+	width: 100%;
+	margin-top: 100px;
+	text-align: center;
+}
+
+#subContenedorVideos {
+	width: 50%;
+	text-align: center;
+	float: left;
+
+}
+
+
+
+
+
+
+
+
+.fotoMedia {
+	text-align: center;
+}
+
+
+
+
+section.tab{
+	display: block; 
+	padding-top: 50px;
+
+}
+
+table {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+table tr td {
+	width: 20%;
+}
+
+section.tab table caption {
+	border-bottom: 2px solid #4da9ba;
+}
+
+section.tab table tr td {
+	border-bottom: 2px solid #4da9ba;
+
+}
+
+section.tab table tr td img {
+	border-radius: 13px;
+
+	box-shadow: 0px 0px 0px #4da9ba;
+	transition: box-shadow 0.5s;
+
+}
+
+
+section.tab table tr td img:hover {
+	box-shadow: 4px 4px 12px #4da9ba;
+}
+
+
+
+
+/* COLOR DE LOS OL DE LA LISTA DE TEMAS */
+.tab tr td ol li {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	color: #e02142;
+}
+
+
+
+
+
+
+/* CONTACTO */
+
+section#contenedorFormulario {
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+#formulario {
+	width: 40%;
+	padding: 30px;
+	text-align: center;
+	margin: 0 auto;
+
+	border: 1px solid red;
+}
+
+
+
+
+#formularioFoto {
+	width: 100%;
+   	margin: 0 auto;
+	padding: 0px;
+	display: block;
+	text-align: center;
+}
+
+#formularioFoto img {
+	width: 100%;
+}
+
+
+
+
+
+
+
+input {
+	width: 50%;
+	padding: 10px;
+}
+
+
+
+
+
+footer {
+	background: linear-gradient(to bottom, #f0d337, #4da9ba);
+
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	position: relative;
+
+	
+	/* ESTO ES LO Q ME MOVIA PARA LA IZQUIERDA TODO 
+		padding: 20px; */
+	
+}
+
+footer p.txtFooter {
+	font-family: 'Monoton', cursive;
+	font-size: 25px;
+	letter-spacing: 2px;
+	color: #e02142;
+	text-align: center;
+
+
+}
+
+#limpiar {
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
