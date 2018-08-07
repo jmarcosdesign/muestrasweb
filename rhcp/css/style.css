@@ -31,7 +31,8 @@ p {
 	font-weight: 400;
 	font-size: 16px;
 	color: #e02142;
-	text-align: center;
+	text-align: left;
+	columns: 3;
 	text-decoration: none;
 	
 }
