@@ -25,8 +25,12 @@ h2 {
 	text-align: center;
 }
 
-.zaraza {
-	width: 100%;
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color: white;
+	text-align: center;
 }
 
 p {
@@ -36,6 +40,20 @@ p {
 	color: #e02142;
 	text-align: center;
 	text-decoration: none;
+	
+}
+
+p.txtContacto {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+	display: inline-block;
+	width: 30%;
+	text-align: left;
 	
 }
 
@@ -203,6 +221,13 @@ section#info #imgPortada #txtRhcp {
 	margin: 0 auto;
 	display: block;
 	padding-top: 30px;
+}
+
+#historiaBanda p {
+	columns: 3;
+	text-align: justify;
+	column-gap: 45px;
+
 }
 
 
@@ -447,8 +472,8 @@ section#contenedorFormulario {
 	width: 40%;
 	padding: 30px;
 	text-align: center;
-	margin: 0 auto;
-
+	margin: 100px auto;
+	background: #e02142;
 	border: 1px solid red;
 }
 
@@ -458,7 +483,6 @@ section#contenedorFormulario {
 #formularioFoto {
 	width: 100%;
    	margin: 0 auto;
-	padding: 0px;
 	display: block;
 	text-align: center;
 }
@@ -469,16 +493,15 @@ section#contenedorFormulario {
 
 
 
-
-
-
-
 input {
-	width: 50%;
+	width: 30%;
 	padding: 10px;
 }
 
+input.botonEspecial {
+	width: 130px;
 
+}
 
 
 
