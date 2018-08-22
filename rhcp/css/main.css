@@ -1,2 +1,135 @@
-.zaraza {
-  font-size: 16px; }
+.disco01 {
+  background-image: url("img/disco01.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco02 {
+  background-image: url("img/disco02.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco03 {
+  background-image: url("img/disco03.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco04 {
+  background-image: url("img/disco04.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco05 {
+  background-image: url("img/disco05.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco06 {
+  background-image: url("img/disco06.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco07 {
+  background-image: url("img/disco07.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco08 {
+  background-image: url("img/disco08.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco09 {
+  background-image: url("img/disco09.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco10 {
+  background-image: url("img/disco10.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.disco11 {
+  background-image: url("img/disco11.jpg");
+  width: 300px;
+  height: 300px;
+  border-radius: 13px;
+  box-shadow: 0px 0px 0px #4da9ba;
+  transition: box-shadow 0.5s; }
+
+.fotoMusicoUno {
+  background-image: url("img/fotoMusicoUno.jpg");
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 200px;
+  background-position: center top;
+  border: 12px solid #e02142;
+  transition: border 1s; }
+
+.fotoMusicoDos {
+  background-image: url("img/fotoMusicoDos.jpg");
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 200px;
+  background-position: center top;
+  border: 12px solid #e02142;
+  transition: border 1s; }
+
+.fotoMusicoTres {
+  background-image: url("img/fotoMusicoTres.jpg");
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 200px;
+  background-position: center top;
+  border: 12px solid #e02142;
+  transition: border 1s; }
+
+.fotoMusicoCuatro {
+  background-image: url("img/fotoMusicoCuatro.jpg");
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 200px;
+  background-position: center top;
+  border: 12px solid #e02142;
+  transition: border 1s; }

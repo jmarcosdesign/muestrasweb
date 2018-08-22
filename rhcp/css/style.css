@@ -1,3 +1,4 @@
+
 body {
 	margin: 0 auto;
 	background-color: #f0d337;
@@ -176,24 +177,25 @@ ul.botonera li a.botoneraPrincipal:hover {
 }
 
 
-/* FIN BOTONERA SUB MENU */
-
-
-section#info #imgPortada img {
+#info {
 	width: 100%;
+	margin: 0 auto;
 }
 
 
-section#info #imgPortada {
+ section#info #imgPortadaHome  {
+	background-image: url(img/portada.jpg);
+	background-size: cover;
 	width: 100%;
-	margin: 0 auto;
-	padding: 0px;
-	display: block;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	margin: 0 auto 60px auto;
 	text-align: center;
 	position: relative;
 }
 
-section#info #imgPortada #txtRhcp {
+
+section#info #imgPortadaHome #txtRhcp {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 800;
 
@@ -209,26 +211,40 @@ section#info #imgPortada #txtRhcp {
 }
 
 
-#info {
-	width: 100%;
-	margin: 0 auto;
-	display: block;
-}
-
 
 #historiaBanda {
 	width: 80%;
 	margin: 0 auto;
-	display: block;
+	display: flex;
+	flex-direction: row;
+
 	padding-top: 30px;
 }
 
 #historiaBanda p {
-	columns: 3;
 	text-align: justify;
+	/* columns: 2;
 	column-gap: 45px;
-
+	 */
 }
+
+#biografia {
+	flex-grow: 2;
+	padding-left: 30px;
+
+	/* width: 60%; */
+}
+
+#biografia > p {
+	margin: 0;
+}
+
+#fotoBio {
+	flex-grow: 1;
+	/* width: 20%; */
+}
+
+
 
 
 
@@ -237,7 +253,7 @@ section#integrantes {
 	display: block;
 	margin: 0 auto;
 	text-align: center;
-	padding-top: 2%;
+	padding-top: 5%;
 	padding-bottom: 5%;
 }
 
@@ -255,74 +271,19 @@ section#integrantes .musico {
 
 
 
-.fotoMusicoUno {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	text-align: center;
-	margin: 0 auto;
-	border-radius: 200px;
-	background-image: url(img/anthony.jpg);
-	background-position: center center;
-	border: 12px solid #e02142;
-
-	transition: border 1s;
-}
-
 .fotoMusicoUno:hover {
 	border: 12px solid #4da9ba;
-}
-
-
-.fotoMusicoDos {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	text-align: center;
-	margin: 0 auto;
-	border-radius: 200px;
-	background-image: url(img/flea.jpg);
-	background-position: center top;
-	border: 12px solid #e02142;
-
-	transition: border 1s;
 }
 
 .fotoMusicoDos:hover {
 	border: 12px solid #4da9ba;
 }
 
-.fotoMusicoTres {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	text-align: center;
-	margin: 0 auto;
-	border-radius: 200px;
-	background-image: url(img/chad.jpg);
-	background-position: center top;
-	border: 12px solid #e02142;
-
-	transition: border 1s;
-}
 
 .fotoMusicoTres:hover {
 	border: 12px solid #4da9ba;
 }
 
-.fotoMusicoCuatro {
-	width: 200px;
-	height: 200px;
-	display: inline-block;
-	text-align: center;
-	margin: 0 auto;
-	border-radius: 200px;
-	background-image: url(img/josh.jpg);
-	background-position: center top;
-	border: 12px solid #e02142;
-
-	transition: border 1s;
-}
 
 .fotoMusicoCuatro:hover {
 	border: 12px solid #4da9ba;
@@ -330,47 +291,27 @@ section#integrantes .musico {
 
 
 
-/*  ASI ESTABA:
-
 #contenedorFotos {
-	width: 100%;
 	margin-top: 100px;
-	text-align: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 0px;
+	justify-content: center;
 
 }
 
 #subContenedorFotos img {
-	width: 25%;
-	display: block;
-	float: left;
-
-	
+	width:100%;	
+	align-items: stretch;
+	align-content: space-around;
 }
 
-
-*/
-
-
-#contenedorFotos {
-	width: 100%;
-	margin-top: 100px;
-	text-align: center;
-
-}
 
 
 #subContenedorFotos {
-	width: 25%;
-	float: left;
-	
+	flex: 1 1 25%;
 }
-
-
-#subContenedorFotos img {
-	width: 100%;
-}
-
-
 
 
 video {
@@ -393,17 +334,9 @@ video {
 }
 
 
-
-
-
-
-
-
 .fotoMedia {
 	text-align: center;
 }
-
-
 
 
 section.tab{
@@ -422,6 +355,9 @@ table tr td {
 	width: 20%;
 }
 
+
+/* ESTILOS LINEAS DE FILAS DE LAS CATEGORIAS DE LOS DISCOS */
+
 section.tab table caption {
 	border-bottom: 2px solid #4da9ba;
 }
@@ -431,16 +367,11 @@ section.tab table tr td {
 
 }
 
-section.tab table tr td img {
-	border-radius: 13px;
-
-	box-shadow: 0px 0px 0px #4da9ba;
-	transition: box-shadow 0.5s;
-
-}
 
 
-section.tab table tr td img:hover {
+
+/* EFECTO SOMBRAS EN EL LOS DISCOS */
+.efectoSombra:hover {
 	box-shadow: 4px 4px 12px #4da9ba;
 }
 
@@ -460,7 +391,7 @@ section.tab table tr td img:hover {
 
 
 
-/* CONTACTO */
+/*     CONTACTO      */
 
 section#contenedorFormulario {
 	width: 100%;
@@ -468,33 +399,44 @@ section#contenedorFormulario {
 }
 
 
-#formulario {
-	width: 40%;
-	padding: 30px;
+section#contenedorFormulario #imgPortadaContacto  {
+	background-image: url(img/fotoRedHotDos.jpg);
+	background-size: cover;
+	width: 100%;
+	padding-top: 18%;
+	padding-bottom: 18%;
+	margin: 0 auto 60px auto;
 	text-align: center;
+	position: relative;
+}
+
+
+ section#contenedorFormulario #imgPortadaContacto #txtTituloContacto {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 800;
+
+	font-size: 150px;
+	color: #f0d337;
+	text-align: left;
+	font-style: italic;
+
+	position: absolute;
+	bottom: 2%;
+	left: 10%;
+	z-index: 1000;
+}
+
+
+#formulario {
+	width: 60%;
+	padding: 50px;
 	margin: 100px auto;
 	background: #e02142;
-	border: 1px solid red;
 }
-
-
-
-
-#formularioFoto {
-	width: 100%;
-   	margin: 0 auto;
-	display: block;
-	text-align: center;
-}
-
-#formularioFoto img {
-	width: 100%;
-}
-
 
 
 input {
-	width: 30%;
+	width: 50%;
 	padding: 10px;
 }
 
@@ -503,6 +445,12 @@ input.botonEspecial {
 
 }
 
+.contContratacion {
+	width: 80%;
+	height: 30px;
+	display: block;
+	text-align: right;
+}
 
 
 footer {
@@ -532,18 +480,6 @@ footer p.txtFooter {
 #limpiar {
 	clear: both;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

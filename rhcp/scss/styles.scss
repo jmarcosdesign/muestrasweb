@@ -1,5 +1,34 @@
-$tamano-grande: 16px;
 
-.zaraza {
-	font-size: $tamano-grande;
+
+@each $music in disco01, disco02, disco03, disco04, disco05, disco06, disco07, 
+disco08, disco09, disco10, disco11{
+	.#{$music} {
+	background-image: url('img/#{$music}.jpg');
+	width: 300px;
+	height: 300px;
+	border-radius: 13px;
+
+	box-shadow: 0px 0px 0px #4da9ba;
+	transition: box-shadow 0.5s;
 }
+}
+
+
+
+@each $integrantes in fotoMusicoUno, fotoMusicoDos, 
+fotoMusicoTres, fotoMusicoCuatro {
+	.#{$integrantes} {
+	background-image: url('img/#{$integrantes}.jpg');
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 200px;
+	background-position: center top;
+	border: 12px solid #e02142;
+
+	transition: border 1s;
+}
+}
+
