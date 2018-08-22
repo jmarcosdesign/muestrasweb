@@ -133,3 +133,53 @@
   background-position: center top;
   border: 12px solid #e02142;
   transition: border 1s; }
+
+.contenedorFrase {
+  width: 100%;
+  height: 400px;
+  background-color: #4da9ba;
+  background-image: url("img/bkgFrase.jpg");
+  margin: 70px 0 70px 0;
+  padding: 50px 0 0 0; }
+
+.btnSocial--instagram {
+  background-color: #fb3958;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  list-style: none; }
+
+.btnSocial--facebook {
+  background-color: #3b5998;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  list-style: none; }
+
+.btnSocial--youtube {
+  background-color: #c4302b;
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 40px;
+  display: inline-block;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px 0 10px;
+  text-decoration: none;
+  list-style: none; }

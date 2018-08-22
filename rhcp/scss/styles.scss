@@ -32,3 +32,44 @@ fotoMusicoTres, fotoMusicoCuatro {
 }
 }
 
+
+
+
+@mixin frases($width,$height,$color,$background-image,$margin,$padding){
+width:$width;
+height:$height;
+background-color:$color;
+background-image:$background-image;
+margin:$margin;
+padding:$padding;
+}
+
+.contenedorFrase {
+@include frases(100%,400px,#4da9ba,url("img/bkgFrase.jpg"),70px 0 70px 0,50px 0 0 0);
+}
+
+
+
+$social:(
+instagram:#fb3958,
+facebook:#3b5998,
+youtube:#c4302b,
+);
+
+@each $name-color, $bgcolor in $social {
+.btnSocial--#{$name-color} {
+background-color: $bgcolor;
+width: 35px;
+height: 35px;
+border-radius: 5px;
+text-align: center;
+line-height: 40px;
+display: inline-block;
+color: white;
+font-size: 20px;
+margin: 0 10px 0 10px;
+text-decoration: none;
+list-style: none;
+}
+}
+

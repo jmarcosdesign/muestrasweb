@@ -34,6 +34,17 @@ h3 {
 	text-align: center;
 }
 
+h4 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	font-style: italic;
+	color: #f0d337;
+	text-align: right;
+	letter-spacing: 5px;
+	padding-right: 20px;
+}
+
 p {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 400;
@@ -75,7 +86,6 @@ ul li {
 	text-decoration: none;
 	list-style: none;
 }
-
 
 
 
@@ -460,11 +470,10 @@ footer {
 	padding-top: 20px;
 	padding-bottom: 20px;
 	position: relative;
+	text-align: center;
 
-	
 	/* ESTO ES LO Q ME MOVIA PARA LA IZQUIERDA TODO 
 		padding: 20px; */
-	
 }
 
 footer p.txtFooter {
@@ -473,17 +482,10 @@ footer p.txtFooter {
 	letter-spacing: 2px;
 	color: #e02142;
 	text-align: center;
-
-
 }
 
 #limpiar {
 	clear: both;
 }
-
-
-
-
-
 
 
